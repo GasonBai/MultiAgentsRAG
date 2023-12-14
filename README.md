@@ -5,6 +5,6 @@ This is a experiment to mitigate fact-conflict hallucination in LLM, and will do
 
 2) training your baselines
  
-3) training your experiments: the key parts includes: Multi-Agents Debate (MAD) and Retrieval Augmentation Generation(RAG)
+3) training your experiments: the key parts includes: Multi-Agents Debate (MAD) and Retrieval Augmentation Generation(RAG), (1) for the Multi-Agents parts, we basically set up to 2 agents because of the limited computation resource, and set up several debate rounds. (2) for RAG part, we also utilize some reranking strategies and query rewriting strategies to improve the chance of getting more relevant documents as context.
 
 4) evaluating your model output (scoring, sampling, etc)
