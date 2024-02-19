@@ -1,30 +1,46 @@
-# Financial Fact-Checker LLM 🚀
+# Financial Language Models for Reducing Hallucinations 💡
 
-Welcome to the repository where we apply the wisdom of the financial world to the wits of Large Language Models (LLMs)! 🎩💼
+## Introduction 🚀
 
-## What's the Deal? 🤔
-In a nutshell, we're enhancing LLMs to stop them from fabricating facts, especially in the financial domain. Think of it as teaching LLMs to be honest bankers. 🏦✅
+Welcome to our project repository, where we aim to address the challenge of fact-conflict hallucinations in Large Language Models (LLMs) with a focus on the financial domain. Our approach integrates innovative techniques like Multi-Agent Systems (MAS) and Retrieval-Augmented Generation (RAG) to enhance the factuality of LLM outputs.
 
-## Highlights 🌟
-- **Fact-Conflict Hallucination Mitigation**: Like ghostbusters, but for data! We make sure LLMs don't get 'creative' with facts. 🚫👻
-- **Multi-Agent Debates**: Our LLMs argue to get to the truth, kind of like a model United Nations for AI. 🤖🌐
-- **Retrieval-Augmented Generation (RAG)**: We don't just rely on what the LLMs know; we let them do some research too! 📚➡️🧠
+## Project Overview 📊
 
-## The Journey 🛤️
-1. **Fine-tuning Fiesta**: We've spiced up our LLMs with a financial data diet to get them ready for the Wall Street of AI. 🌶️💹
-2. **Debate Club**: Our models engage in rigorous debates to refine their outputs, ensuring they stick to the facts. 🗣️🏆
-3. **Knowledge Quest**: By leveraging external databases, our models can fact-check themselves against the latest financial info. 🔍📈
+- **Hallucination Mitigation**: Tackling financial fact-conflict hallucinations with our novel framework.
+- **MAS Debates**: Implementing a debate framework within MAS to improve reasoning and accuracy.
+- **RAG**: Leveraging up-to-date external knowledge to inform and refine the language model responses.
+- **Financial Expertise**: Fine-tuning our models with rich financial datasets for domain-specific expertise.
 
-## How to Use 🧑‍💻
-Check out our setup guide and let your LLMs hit the gym with our training regimen. It's like a financial boot camp but for AI. 💪🏋️‍♂️
+## Dataset 📁
 
-## Contributing 🤲
-Got ideas? We'd love for you to contribute to our project! Join us in teaching LLMs the value of a dollar (and the truth). 💡💵
+We utilize diverse financial datasets including FiQA and WealthAlpaca, equipping our models with robust financial knowledge.
+
+## Methodology 🛠️
+
+1. **Instruction-Tuning**: Leveraging instruction-tuning to enhance the financial acumen of our models.
+2. **MAS Integration**: Orchestrating debates among agents to critique and refine responses.
+3. **RAG Workflow**: Incorporating a custom retrieval engine to supplement model responses with external knowledge.
+
+## Results 📈
+
+Our system demonstrates significant improvements in reducing hallucinations, outperforming traditional models in benchmarks like TruthfulQA and HaluEval.
+
+## Usage 🖥️
+
+Follow our setup guide to train and evaluate the models. We provide comprehensive instructions for replicating our experiments and utilizing our framework.
+
+## Contribution Guidelines 🤝
+
+Interested in contributing? We welcome collaborations to advance this project. Check out our contribution guidelines to get started.
 
 ## Acknowledgments 🙏
-A shoutout to the brains behind the operation — our fantastic collaborators and supporters who make this AI wizardry possible. 🧙‍♂️👩‍🔬
 
-## Let's Get Fiscal! 📊
-Jump into the code, fine-tune those financial LLMs, and help us create an AI that knows its balance sheets from its bank statements. 🖥️💸
+A special thanks to the academic and research community for their support and the datasets that were instrumental in our research.
 
-Remember: In a world full of data, may your facts always be factual! 🌍✨
+## Citation 📑
+
+If our system or findings aid your research or application, please credit our work using the provided citation format.
+
+---
+
+We're on a quest to enhance the trustworthiness of financial LLMs. Join us! 🌟
