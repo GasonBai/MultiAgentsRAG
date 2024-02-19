@@ -1,50 +1,47 @@
-# MultiAgentsRAG
+# The Financial Fact-Checkers League 🦸‍♂️🦸‍♀️
 
-Welcome to the MultiAgentsRAG repository, where we're tackling the intriguing challenge of fact-conflict hallucination in Large Language Models (LLMs) with a dash of humor. Brace yourselves for experiments that not only demystify the realm of LLMs but also venture into the financial domain, because who says data can't be fun?
+**Welcome to the league of extraordinary models, where finance meets fact, and hallucinations meet their match.**
 
-## About The Experiment 🧪
+## Mission: Fact-Conflict Resolution 🌍
 
-We're on a mission to reduce the "daydreaming" of LLMs by:
+Are you tired of LLMs that think a bull market refers to a farmer's livestock sale? So were we! That's why we've assembled a team of finely-tuned, instruction-following financial wizards, ready to demystify the hallucinations that often befuddle lesser models.
 
-1. **Fine-tuning Fun**: Utilizing FiQA as our fine-tuning playground, we've put two base models, Llama2-7b and ChatGLM2-6b, through their paces. With the help of LoRA, they're learning to stick to the facts.
+## The Game Plan 📈
 
-2. **Benchmarking Bonanza**: We're leveraging the robust evaluation Benchmarks - MMLU, HaluEval, and TruthfulQA - because testing our models should be as exciting as a game show.
+1. **Fine-Tuning Fiesta**: We crammed our models' brains with the finest financial datasets — think of it as a brain-food buffet of FiQA and WealthAlpaca.
 
-## Training Time 🏋️‍♀️
+2. **Multi-Agent Mingle**: Our agents debate over financial facts like it's an Oxford Union showdown, ensuring only the best responses emerge victorious.
 
-Get your models into shape by:
+3. **RAG Tag Team**: Retrieval-Augmented Generation (RAG) is our secret sauce, adding a pinch of external knowledge to spice up our models' replies.
 
-1. **Baseline Bootcamp**: Start with the basics. No fancy footwork here, just good old-fashioned training to set the stage.
+4. **Benchmark Bonanza**: We've put our models through the wringer with the likes of MMLU, HaluEval, and TruthfulQA. It's like the Olympics for language models, and we're going for gold!
 
-2. **Expert Extravaganza**: Ready for the big leagues? Multi-Agents Debate (MAD) and Retrieval Augmentation Generation (RAG) are where it's at. We're doubling the agents and doubling the fun (limited by our computational diet, of course).
+## How to Whip Up Your Own Fact-Checker 🍲
 
-## The RAGtag Strategy 📚
+If you're itching to train your own financial guru:
 
-For RAG:
+1. **Grab the Code**: Clone this repository and bask in the glory of advanced machine learning.
 
-- We've got reranking strategies that would make a librarian jealous.
-- Query rewriting tactics that turn a simple search into a treasure hunt for relevant documents.
+2. **Prepare the Ingredients**: You'll need the datasets, a sprinkle of patience, and a dash of computational power.
 
-## Evaluation Escapades 🎯
+3. **Stir Gently**: Follow our instructions to mix all components. Warning: Do not overmix, or you may end up with an overfitting soufflé.
 
-Scoring? Sampling? We do it all, and with style. Evaluating model output isn't just about the numbers; it's about the narrative.
+4. **Let It Simmer**: Train your models with the care of a Michelin-starred chef.
 
-Join us on this computational caper as we fine-tune, train, and transform the world of LLMs—one fact at a time.
+5. **Taste Test**: Evaluate your creation with our benchmarks to ensure it's a Michelin-worthy fact-checker.
 
-## How To Contribute?
+## Contribute to the Cause 🤝
 
-Want to join the ranks of factual wizards? Here's how you can cast your spell in the MultiAgentsRAG world:
+Got an idea to make our models even sharper? Fork it, tweak it, and pull request it! We're all about community improvement.
 
-1. **Fork it**: Just like wielding a magic wand, but with code.
-2. **Create your feature branch**: `git checkout -b my-new-feature`
-3. **Commit your changes**: `git commit -am 'Add some magic'`
-4. **Push to the branch**: `git push origin my-new-feature`
-5. **Submit a pull request**: And watch the factual magic unfold.
+## Special Thanks 🎉
 
-## Acknowledgments 🙌
+Shoutout to all the caffeine that made this possible. Also, our heartfelt thanks to the datasets that fed our models and the benchmarks that kept them honest.
 
-- Hat tip to anyone who's code was used.
-- Endless gratitude to coffee, the fuel for our late-night coding sessions.
-- And of course, our supporters who believe in the power of factual AI.
+## Join the League 🦸‍♂️🦸‍♀️
 
-Remember, in the world of MultiAgentsRAG, facts are more than just statements; they're an adventure. 🚀
+Ready to join the ranks of financial fact-checking heroes? Let's get training!
+
+---
+
+*Disclaimer: No hallucinations were harmed in the making of this project.*
